@@ -1,1 +1,8 @@
-"Hello git"
+import pytest
+
+class MainClass():
+    def __init__(self, getLocalNumber):
+        self.getLocalNumber = getLocalNumber
+
+test_main_class = MainClass(14)
+assert test_main_class.MainClass == 14
