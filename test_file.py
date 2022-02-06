@@ -1,6 +1,5 @@
+import pytest
 from main import *
 
-
-def test_main_class():
-    test_main_class = MainClass(14)
-    assert test_main_class.getLocalNumber == 14
+def testGetClassNumber():
+    assert getClassNumber > 45, "Переменная getClassNumber не равна 45"
