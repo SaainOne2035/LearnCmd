@@ -1,6 +1,10 @@
 import pytest
 
 class MainClass():
-    def __init__(self, getLocalNumber):
+    class_number = 20
+
+    def __init__(self, getLocalNumber, class_number):
         self.getLocalNumber = getLocalNumber
 
+
+getClassNumber = MainClass.class_number
